@@ -14,6 +14,7 @@ import java.util.List;
 import java.util.Locale;
 
 @Controller
+@RequestMapping("/message/items")
 @RequiredArgsConstructor
 public class MessageItemController {
 
